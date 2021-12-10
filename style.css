@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+}
+
+header {
+    background-color: lightsalmon;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: aquamarine;
+}
+
+.poem-title {
+    background-color: aqua;
+    padding: 8px;
+}
+
+.author {
+    margin: 0;
+}
+
+.poem {
+    text-align: left;
+    background-image: url(word-cloud.svg);
+    background-position: center;
+    padding: 5px 8px;
+}
+
+footer {
+    background-color: darksalmon;
+}
